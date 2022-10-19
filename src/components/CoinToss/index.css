@@ -1,0 +1,53 @@
+.results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.results {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e2a139;
+}
+
+.coin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #a35200;
+  font-weight: bold;
+  text-align: center;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+img {
+  width: 40%;
+}
+button {
+  border-radius: 5px;
+  padding: 5px;
+  color: #a35200;
+  background-color: #e2a139;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-width: 0px;
+}
